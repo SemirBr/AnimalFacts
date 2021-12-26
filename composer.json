@@ -1,0 +1,24 @@
+{
+    "name": "savchev/animal-facts",
+    "description": "Page with facts about cats and dogs",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "require-dev": {
+        "phpmd/phpmd": "^2.11",
+      "squizlabs/php_codesniffer": "^3.6",
+      "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kiril Savchev",
+            "email": "k.savchev@gmail.com"
+        }
+    ]
+}
